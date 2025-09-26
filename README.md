@@ -4,7 +4,7 @@
 
 ### 1. Ingestão
 
-- **Realização**: Usei o Databricks Community Edition para importar o dataset e criar as tabelas SQL.
+- **Realização**: Usei o Databricks Community Edition para importar o dataset e criar as tabelas SQL. Para armazenar o banco de dados e conectar com o Power BI, usei o SQLite online.
 
 ### 2. Tratamento
 - **Realização**: Usei PySpark e SparkSQL para os tratamentos e normalização dos dados, bem como os refinamentos e limpezas, criando colunas formatadas para o formato de data BR, além do solicitado no teste.
@@ -28,4 +28,4 @@
 
 - Dashboard (link ou prints).
 
-- Pensando em como realizar esse teste, optei em usar o Databricks Community Edition para todo o processo, desde a ingestão dos dados até a finalização das análises e exportação para o Power BI. Optei por conta do contato recente que tive com a ferramente e achei interessante o processo dos dados ficarem salvos na nuvem, onde posso consultar de forma rápida e com a opção não somente do SQL, mas também usar python para algumas análises.
+- Pensando em como realizar esse teste, optei em usar o Databricks Community Edition para todo o processo de ingestão dos dados até a finalização das análises. O armazenamento do banco fiz no SQLite online a parte de Data Viz, optei pelo Power BI, pois possuo mais afinidade com a ferramenta. Optei em usar Databricks e SQLite por conta do contato recente que tive com a ferramenta (Databricks), o que fez com que eu pensasse no, quanto seria interessante o processo dos dados ficarem salvos na nuvem, onde posso consultar de forma rápida e com a opção não somente do SQL, mas também usar python para algumas análises.
