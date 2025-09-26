@@ -1,2 +1,31 @@
-# case_soutag
-Realização do case para o processo seletivo da Soutag para análise de dados, documentando o processo de análise, tratamento,  ingestão e entrega de insights.
+# Case Soutag
+
+## Etapas
+
+### 1. Ingestão
+
+- **Realização**: Usei o Databricks Community Edition para importar o dataset e criar as tabelas SQL.
+
+### 2. Tratamento
+- **Realização**: Usei PySpark e SparkSQL para os tratamentos e normalização dos dados, bem como os refinamentos e limpezas, criando colunas formatadas para o formato de data BR, além do solicitado no teste.
+
+### 3. **Análise de Dados**
+#### Feitas as devidas consultas e criação das views para a utilização na criação do dashboard em Power BI, conforme os anexos.
+- Top países com mais títulos.
+- Evolução por mês-ano de lançamentos.
+- Distribuição de filmes x séries.
+- Análise de elenco
+
+### **Linguagens usadas**
+
+- Usados PySpark (python) para a leitura do dataset, criação do dataframe, normalização de dados e para salvar o dataframe como uma tabela SQL, e, SparkSQL para a criação das tabelas seguintes, além de mais processos de limpeza dos dados, consultas e criação das views para a utilização no processo de BI;
+
+- A ferramenta usada no processo de criação do dashboard foi o Microsoft Power BI;
+
+### Entrega
+
+- Os códigos usados durante todo o processo estão disponíveis nesse repositório.
+
+- Dashboard (link ou prints).
+
+- Pensando em como realizar esse teste, optei em usar o Databricks Community Edition para todo o processo, desde a ingestão dos dados até a finalização das análises e exportação para o Power BI. Optei por conta do contato recente que tive com a ferramente e achei interessante o processo dos dados ficarem salvos na nuvem, onde posso consultar de forma rápida e com a opção não somente do SQL, mas também usar python para algumas análises.
