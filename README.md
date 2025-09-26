@@ -24,8 +24,8 @@
 
 ### Entrega
 
-- Os códigos usados durante todo o processo estão disponíveis nesse repositório.
+- Os códigos usados durante todo o processo estão disponíveis nesse repositório (arquivos - 01_Ingestão de dados - Case Soutag.ipynb | 02_ETL - Case Soutag.ipynb | 03_Análises Finais- Case Soutag.ipynb).
 
-- Dashboard (link ou prints).
+- Dashboard - Link e prints disponíveis no arquivo "Dashoboard_Soutag".
 
 - Pensando em como realizar esse teste, optei em usar o Databricks Community Edition para todo o processo de ingestão dos dados até a finalização das análises. O armazenamento do banco fiz no SQLite online a parte de Data Viz, optei pelo Power BI, pois possuo mais afinidade com a ferramenta. Optei em usar Databricks e SQLite por conta do contato recente que tive com a ferramenta (Databricks), o que fez com que eu pensasse no, quanto seria interessante o processo dos dados ficarem salvos na nuvem, onde posso consultar de forma rápida e com a opção não somente do SQL, mas também usar python para algumas análises.
